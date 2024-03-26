@@ -1,0 +1,271 @@
+body{
+  background-color: orangered;
+  margin: 0px;
+}
+
+#container{
+  border: 1px solid purple;
+  width: 80%;
+  margin: 0px auto;
+}
+
+/*---------HEADER----------*/
+header{
+  background-image: url(img/header.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  border: 1px solid navy;
+  height: 150px;
+}
+
+#menu{
+  background-color: rgba(0, 0, 128, 0.8);
+  text-align: center;
+  padding-right: 40px;
+  margin-top: 110px;
+}
+
+.dropdown-menu{
+  background-color: rgba(245, 61, 0, 0.8);
+}
+
+.dropdown-item{
+  width: auto;
+}
+/*-------------------------*/
+
+/*---------SECTION---------*/
+section{
+  border: 1px solid navy;
+  background-image: url(img/section.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 1000px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#conteudo1{
+  background-color: rgba(0, 0, 128, 0.8);
+  width: 98%;
+  height: 49%;
+  margin: 10px;
+  padding: 10px;
+}
+
+#conteudo2{
+  background-color: rgba(0, 0, 128, 0.8);
+  width: 98%;
+  height: 49%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.texto{
+  border: 1px solid orangered;
+  float: left;
+  width: 68%;
+  height: 98%;
+  padding: 10px;
+}
+
+.imagem{
+  border: 1px solid orangered;
+  float: right;
+  width: 30%;
+  height: 98%;
+  padding: 10px;
+}
+
+#conteudo3{
+  background-color: rgba(0, 0, 128, 0.8);
+  width: 98%;
+  height: 99%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.menuWiki{
+  border: 1px solid orangered;
+  width: 98%;
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px; 
+}
+/*-------------------------*/
+
+/*----------FOOTER---------*/
+footer{
+  clear: both;
+  border: 1px solid navy;
+  background-color: rgba(0, 0, 128, 0.8);
+  text-align: center;
+  color: orangered;
+  font-size: 25px;
+  height: 50px;
+}
+/*-------------------------*/
+
+/*--------BOOTSTRAP--------*/
+  /*ExtraSmall devices */
+  @media(max-width: 575px){
+    #menu a.menuPrincipal{
+      margin-left: 20px;
+      margin-right: 0px;
+      font-size: 10px;
+      color: orangered;
+    }  
+
+    #menu a.dropdown-item{
+      margin: 0px;
+      font-size: 10px;
+      color: navy;
+    }
+
+    #ConteudoPrincipal{
+      width: 98%;
+      height: 70%;
+      padding: 10px;
+    }
+
+    #ConteudoLateral{
+      width: 98%;
+      padding: 10px;
+      padding-right: 20px;
+    }
+
+    footer{
+      clear: both;
+      border: 1px solid navy;
+      background-color: rgba(0, 0, 128, 0.8);
+      text-align: center;
+      color: orangered;
+      font-size: 10px;
+      height: 50px;
+    }
+
+    .menuWiki{
+      border: 1px solid orangered;
+      width: 98%;
+      height: 50px;
+      margin-top: 0px;
+      padding: 10px; 
+    }
+  }
+      
+  /* Small divices [576px ou +] */
+  @media(min-width: 576px){
+    #menu a.menuPrincipal{
+      margin-left: 25px;
+      margin-right: 0px;
+      font-size: 15px;
+      color: orangered;
+    }     
+    
+    #menu a.dropdown-item{
+      margin: 0px;
+      font-size: 10px;
+      color: navy;
+    }
+
+    #ConteudoPrincipal{
+      width: 98%;
+      height: 70%;
+      padding: 10px;
+    }
+
+    #ConteudoLateral{
+      width: 98%;
+      height: 30%;
+      padding: 10px;
+      padding-right: 20px;
+    }
+
+    .menuWiki{
+      border: 1px solid orangered;
+      width: 98%;
+      height: 50px;
+      margin-top: 0px;
+      padding: 10px; 
+    }
+  }  
+
+  /* Medium devices [768px ou +] */
+  @media(min-width: 768px){
+    #menu a.menuPrincipal{
+      margin-left: 30px;
+      margin-right: 0px;
+      font-size: 20px;
+      color: orangered;
+    }
+
+    #menu a.dropdown-item{
+      margin: 0px;
+      font-size: 15px;
+      color: navy;
+    }
+
+    #ConteudoPrincipal{
+      width: 98%;
+      height: 70%;
+      padding: 10px;
+    }
+
+    #ConteudoLateral{
+      width: 98%;
+      height: 30%;
+      padding: 10px;
+      padding-right: 20px;
+    }
+
+    .menuWiki{
+      border: 1px solid orangered;
+      width: 98%;
+      height: 50px;
+      margin-top: 0px;
+      padding: 10px; 
+    }
+  }    
+      
+  /* Large devices [992px ou +] */
+  @media(min-width: 992px){
+    #menu a.menuPrincipal{
+      margin-left: 60px;
+      margin-right: 35px;
+      font-size: 25px;
+      color: orangered;
+    }
+
+    #menu a.dropdown-item{
+      margin: 0px;
+      font-size: 20px;
+      color: navy;
+    }
+
+    #ConteudoPrincipal{
+      float: left;
+      width: 68%;
+      height: 98%;
+      padding: 10px;
+    }
+
+    #ConteudoLateral{
+      float: right;
+      width: 30%;
+      height: 60%;
+      padding: 10px;
+      padding-right: 20px;
+    }
+
+    .menuWiki{
+      border: 1px solid orangered;
+      width: 98%;
+      height: 100px;
+      margin-top: 10px;
+      padding: 10px; 
+    }
+        
+  }
+/*-----------------------------*/
